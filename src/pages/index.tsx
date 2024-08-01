@@ -15,6 +15,8 @@ export default function Home() {
       </Head>
       <h1>Home Page</h1>
       <p>Welcome to the home page!</p>
+      <a href="/about">Go to About Page</a>
+      <a href="/contact">Go to Contact Page</a>
     </div>
   );
 }

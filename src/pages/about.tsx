@@ -11,6 +11,8 @@ export default function About() {
       </Head>
       <h1>About Us</h1>
       <p>Here is some information about us.</p>
+      <a href="/">Go to Home Page</a>
+      <a href="/contact">Go to Contact Page</a>
     </div>
   );
 }

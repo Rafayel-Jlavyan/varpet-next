@@ -11,6 +11,8 @@ export default function Contact() {
       </Head>
       <h1>Contact Us</h1>
       <p>Feel free to reach out to us through this page.</p>
+      <a href="/">Go to Home Page</a>
+      <a href="/about">Go to About Page</a>
     </div>
   );
 }
