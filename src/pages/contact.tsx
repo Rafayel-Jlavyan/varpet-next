@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -11,8 +12,8 @@ export default function Contact() {
       </Head>
       <h1>Contact Us</h1>
       <p>Feel free to reach out to us through this page.</p>
-      <a href="/">Go to Home Page</a>
-      <a href="/about">Go to About Page</a>
+      <Link href="/">Go to Home Page</Link>
+      <Link href="/about">Go to About Page</Link>
     </div>
   );
 }
